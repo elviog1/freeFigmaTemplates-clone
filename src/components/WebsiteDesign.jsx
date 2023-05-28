@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function WebsiteDesign({website,title,id}) {
   return (
     <section id={id} className='flex my-5 justify-center'>
-        <div className='mx-auto w-1440'>
+        <div className='mx-auto '>
             <h2 className='text-textBlack text-center text-2xl font-semibold my-3'>{title}</h2>
             <div className='flex gap-10 justify-center flex-wrap'>
                 <CardWebsite arrayWebsite={website} />
